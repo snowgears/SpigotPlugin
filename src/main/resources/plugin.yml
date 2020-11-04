@@ -1,0 +1,10 @@
+name: SpigotPlugin
+author: Tanner Embry (SnowGears)
+description: Plugin description goes here
+version: 1.0
+api-version: 1.16
+main: com.snowgears.spigotplugin.SpigotPlugin
+permissions:
+    spigotplugin.use:
+        description: Allows player to use the plugin
+        default: op
